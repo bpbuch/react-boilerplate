@@ -1,7 +1,7 @@
-import React from "react";
-import { shallow } from "enzyme";
+import React from 'react';
+import { shallow } from 'enzyme';
 
-import App from "../App";
+import App from '../App';
 
 let wrapper;
 
@@ -10,5 +10,5 @@ beforeEach(() => {
 });
 
 it("should say 'Welcome to React!'", () => {
-  expect(wrapper.find("h1").text()).toEqual("Welcome to React!");
+  expect(wrapper.find('h1').text()).toEqual('Welcome to React!');
 });
